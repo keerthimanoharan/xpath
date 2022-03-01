@@ -34,7 +34,7 @@ public static void main(String[] args) throws Exception {
 	
 	Thread.sleep(3000);
 
-	driver.findElement(By.xpath("//div[text()='Lead ID']/following::table[1]/tbody/tr/td[1]/div/a[text()='16551']")).click();
+	driver.findElement(By.xpath("(//a[contains(text(),'keerthana')])[2]")).click();
 	String title5 = driver.getTitle();
 	System.out.println(title5);
 }
